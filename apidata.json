@@ -1,0 +1,437 @@
+{
+  "sms": {
+    "medbuzz": {
+      "url": "https://api.medbuzz.in/app/Generate_User_OTP",
+      "header": {
+        "Host": "api.medbuzz.in",
+        "Origin": "https://www.medbuzz.in",
+        "Referer": "https://www.medbuzz.in/"
+      },
+      "data": "{\"CountryCode\":\"+91\",\"PhoneNumber\":\"<number>\",\"ApiKey\":\"a357a6d6-af14-4a43-b4a2-4a67af17d322\",\"USERID\":\"\",\"SessionID\":\"\"}",
+      "method": "POST"
+    },
+    "apollo": {
+      "url": "https://webapi.apollo247.com/",
+      "header": {
+        "Accept": "*/*",
+        "Origin": "https://www.apollopharmacy.in",
+        "Referer": "https://www.apollopharmacy.in/",
+        "Sec-Fetch-Site": "cross-site",
+        "Authorization": "Bearer 3d1833da7020e0602165529446587434"
+      },
+      "data": "{\"operationName\":\"Login\",\"variables\":{\"mobileNumber\": \"+91<number>\",\"loginType\":\"PATIENT\"},\"query\": \"query Login($mobileNumber: String!, $loginType: LOGIN_TYPE!) {\\n  login(mobileNumber: $mobileNumber, loginType: $loginType) {\\n    status\\n    message\\n    loginId\\n    __typename\\n  }\\n}\\n\"}",
+      "method": "POST"
+    },
+    "ajio": {
+      "url": "https://login.web.ajio.com/api/auth/signupSendOTP",
+      "header": {
+        "Accept": "*/*",
+        "Host": "login.web.ajio.com",
+        "Origin": "https://www.ajio.com",
+        "Referer": "https://www.ajio.com/"
+      },
+      "data": "{\"firstName\":\"la la lodu\",\"login\":\"AyegaTohModiHe@gmail.com\",\"password\":\"Seggs@123x\",\"genderType\":\"Male\",\"mobileNumber\":\"<number>\",\"rilFnlRegisterReferralCode\":\"\",\"requestType\":\"SENDOTP\",\"newDesign\":false}",
+      "method": "POST"
+    },
+    "byjus": {
+      "url": "https://identity.tllms.com/api/request_otp",
+      "header": {
+        "Origin": "https://byjus.com",
+        "Referer": "https://byjus.com/",
+        "Sec-Fetch-Site": "cross-site"
+      },
+      "data": "{\"phone\":\"+91-<number>\",\"app_client_id\":\"<random-uuid>\"}",
+      "method": "POST"
+    },
+    "jeet": {
+      "url": "https://api.jeet11.com/account-service/external/v1.0.0/sendOtp",
+      "header": {
+        "Origin": "https://www.jeet11.com",
+        "Referer": "https://www.jeet11.com/",
+        "x-client-app-type": "JEET11",
+        "x-header-deviceid": "<random-uuid>",
+        "x-os-name": "unknown",
+        "x-session-tracking-uniqueid": "<random-uuid>"
+      },
+      "data": "{\"phoneNo\":\"<number>\",\"countryAreaCode\":\"91\",\"language\":\"English\"}",
+      "method": "POST"
+    },
+    "moglix": {
+      "url": "https://apinew.moglix.com/nodeApi/v1/login/sendOTP",
+      "header": {
+        "Origin": "https://www.moglix.com",
+        "Referer": "https://www.moglix.com/",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+        "x-request-id": "xvlIVGPGxRbfVj0yxVdozk9xM_b2gGD1",
+        "x-access-token": "xvlIVGPGxRbfVj0yxVdozk9xM_b2gGD1",
+        "Cookie": "AMCVS_1CEE09F45D761AFF0A495E2D@AdobeOrg=1; AMCV_1CEE09F45D761AFF0A495E2D@AdobeOrg=1075005958|MCIDTS|19359|MCMID|84442972561173080782059709608408634251|MCAAMLH-1673205230|12|MCAAMB-1673205230|RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y|MCOPTOUT-1672607630s|NONE|vVersion|4.4.1; s_cc=true; user_sid=s:xvlIVGPGxRbfVj0yxVdozk9xM_b2gGD1.2vWjsJ1ubnZpe9kcsKzs0SZE8qazXdY0Z57kPoTX7yg; _gcl_aw=GCL.1672600436.CjwKCAiA-8SdBhBGEiwAWdgtcNFkRH7ADyN7MkPGsnB9aEPWTPwQEMdilFqoGAnd7tfJ-GdzhJouDBoCT6UQAvD_BwE; _gcl_au=1.1.1159706948.1672600436; _ga_V1GYNRLK0T=GS1.1.1672600435.1.0.1672600435.0.0.0; _fbp=fb.1.1672600435867.213225908; _clck=z336oh|1|f7w|0; _ttgclid=CjwKCAiA-8SdBhBGEiwAWdgtcNFkRH7ADyN7MkPGsnB9aEPWTPwQEMdilFqoGAnd7tfJ-GdzhJouDBoCT6UQAvD_BwE; AMP_TOKEN=$NOT_FOUND; _ga=GA1.2.1689311857.1672600436; _gid=GA1.2.1077676960.1672600437; _gat_UA-65947081-1=1; _clsk=1kxcs33|1672600437130|1|1|n.clarity.ms/collect; gpv_V9=moglix:signup form; _gac_UA-65947081-1=1.1672600459.CjwKCAiA-8SdBhBGEiwAWdgtcNFkRH7ADyN7MkPGsnB9aEPWTPwQEMdilFqoGAnd7tfJ-GdzhJouDBoCT6UQAvD_BwE; s_nr=1672600459240-New; s_sq=moglixprod=%26c.%26a.%26activitymap.%26page%3Dmoglix%253Asignup%2520form%26link%3DCONTINUE%26region%3DoverlayVisible%26pageIDType%3D1%26.activitymap%26.a%26.c%26pid%3Dmoglix%253Asignup%2520form%26pidt%3D1%26oid%3DCONTINUE%26oidt%3D3%26ot%3DSUBMIT"
+      },
+      "data": "{\"phone\":\"<number>\",\"email\":\"\",\"type\":\"p\",\"source\":\"signup\",\"device\":\"desktop\"}",
+      "method": "POST"
+    },
+    "trell": {
+      "url": "https://go-users.trell.co/api/v2/auth/phone",
+      "header": {
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "Origin": "https://shop.trell.co",
+        "Referer": "https://shop.trell.co/"
+      },
+      "data": "phoneNo=<number>&channel=sms&website=shop.trell.co&platform=web",
+      "method": "POST"
+    },
+    "housing": {
+      "url": "https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&isBot=false&source=web",
+      "header": {
+        "Accept": "*/*",
+        "app-name": "desktop_web_buyer",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Cookie": "ssrExperiments=carousel_feedback_srp_v1=false;recent_banner=true;crf_hook=false;edge_hp_dark_mode=v0;high_price_bucket_experiment=false;srp_revamp=portrait;save_search_exp=false; userCity=ff6aef43f1485311aa29; cityUrl=patna; service=buy; category=residential; subCategory=; _ga=GA1.2.793937815.1672602042; _gid=GA1.2.1577327570.1672602042; _psid=1; traffic=sourcemedium=google / organic;; is_return_user=false; is_return_session=false; tvc_sm_fc_new=google|organic; tvc_sm_lc=google|organic; _gat=1; experiments=edge_ad_crf_promo=true;edge_bank_offer_screen=v2;pdp_login1_modal=true;hide_free_suggestions_experiment=false;price_filter_graph=true;only_app_features_install_nov2022=true;first_location_input_nearby=true;show_login_mandate=default;crf_similar_properties=true;rent_o_meter=var2;",
+        "Origin": "https://housing.com",
+        "Referer": "https://housing.com/buy-real-estate-seggs",
+        "phoenix-api-name": "LOGIN_SEND_OTP_API"
+      },
+      "data": "{\"query\":\"\\n  mutation($email: String, $phone: String, $otpLength: Int) {\\n    sendOtp(phone: $phone, email: $email, otpLength: $otpLength) {\\n      success\\n      message\\n    }\\n  }\\n\",\"variables\":{\"phone\":\"<number>\"}}",
+      "method": "POST"
+    },
+    "whitehatjr": {
+      "url": "https://api.whitehatjr.com/api/V1/users/sendStudentVerificationCode?timezone=Asia/Calcutta&_vercel_no_cache=1&trackingCode=trackingCode|AB-11194-V-B|AB-11169-V-B|AB-11159-V-A|AB-11140-V-A|AB-11137-V-A|AB-11164-V-A|AB-11182-V-B|AB-11186-V-A|AB-11208-V-B|AB-11167-V-A|AB-11183-V-B|AB-22-V-B|AB-11188-V-B|AB-29-V-B|AB-11150-V-B|AB-11142-V-A|AB-11192-V-A|AB-11154-V-A|AB-11200-V-A|AB-24-V-C|AB-11151-V-B|AB-11195-V-A|AB-26-V-B|AB-11198-V-A|AB-11136-V-A|AB-13-V-B|AB-11152-V-A|AB-11166-V-A|AB-11196-V-A|AB-11193-V-B|AB-11184-V-A|AB-11206-V-A|AB-31-V-A|AB-18-V-A|AB-11181-V-B|AB-11176-V-A|AB-11191-V-B|AB-11156-V-A|AB-28-V-B|AB-11209-V-A|AB-15-V-A|AB-34-V-A|AB-11204-V-A|AB-11163-V-A|AB-11155-V-A|AB-11201-V-B|AB-25-V-B|AB-11135-V-A|AB-21-V-C|AB-11202-V-A|AB-11161-V-A|AB-11153-V-A|AB-23-V-C|AB-17-V-B|AB-37-V-B|AB-11175-V-A|AB-12-V-A|AB-11165-V-A|AB-27-V-B|AB-11160-V-B&regionId=IN&courseType=CODING&brandId=whitehatjr&timestamp=1672602841113",
+      "header": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Cookie": "deviceId=<random-uuid>; abTests=trackingCode|AB-11194-V-B|AB-11169-V-B|AB-11159-V-A|AB-11140-V-A|AB-11137-V-A|AB-11164-V-A|AB-11182-V-B|AB-11186-V-A|AB-11208-V-B|AB-11167-V-A|AB-11183-V-B|AB-22-V-B|AB-11188-V-B|AB-29-V-B|AB-11150-V-B|AB-11142-V-A|AB-11192-V-A|AB-11154-V-A|AB-11200-V-A|AB-24-V-C|AB-11151-V-B|AB-11195-V-A|AB-26-V-B|AB-11198-V-A|AB-11136-V-A|AB-13-V-B|AB-11152-V-A|AB-11166-V-A|AB-11196-V-A|AB-11193-V-B|AB-11184-V-A|AB-11206-V-A|AB-31-V-A|AB-18-V-A|AB-11181-V-B|AB-11176-V-A|AB-11191-V-B|AB-11156-V-A|AB-28-V-B|AB-11209-V-A|AB-15-V-A|AB-34-V-A|AB-11204-V-A|AB-11163-V-A|AB-11155-V-A|AB-11201-V-B|AB-25-V-B|AB-11135-V-A|AB-21-V-C|AB-11202-V-A|AB-11161-V-A|AB-11153-V-A|AB-23-V-C|AB-17-V-B|AB-37-V-B|AB-11175-V-A|AB-12-V-A|AB-11165-V-A|AB-27-V-B|AB-11160-V-B; AB_DATA_GENERATED=true; _fbp=fb.1.1672602676761.228011871; _gid=GA1.2.1647068223.1672602680; _gac_UA-127138116-5=1.1672602680.CjwKCAiA-8SdBhBGEiwAWdgtcCpgYbOcOB0O084OjMrxMha-3ILxDd8Mc-SgW8rBWDUqcnDFiYSw0RoC7jwQAvD_BwE; _gcl_aw=GCL.1672602680.CjwKCAiA-8SdBhBGEiwAWdgtcCpgYbOcOB0O084OjMrxMha-3ILxDd8Mc-SgW8rBWDUqcnDFiYSw0RoC7jwQAvD_BwE; _gcl_au=1.1.481100454.1672602680; _scid=bd1f50b8-f64d-44c5-8704-000f8d02d6e0; ajs_anonymous_id=0c90afa8-9352-485e-acc6-a121087b34be; _hsu=hs.1672602680498.03c6d9ea52; _hscl=; _li_dcdm_c=.whitehatjr.com; _lc2_fpi=b384e0c480b4--01gnqe6zf8vvr03h40x9s2y408; _sctr=1|1672597800000; _hjFirstSeen=1; _hjSession_1347255=eyJpZCI6IjdkYjVkNDEwLWFlYzUtNGMzYy1iNjNiLTliMjQ4ODFhZjk0YyIsImNyZWF0ZWQiOjE2NzI2MDI2ODE2MTksImluU2FtcGxlIjp0cnVlfQ==; _hjAbsoluteSessionInProgress=0; amplitude_idundefinedwhitehatjr.com=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; voxusmediamanager_ignore=true; voxusmediamanager_ignoreot_full=true; voxusmediamanager_id=16726026848130.36240241435953724svun5ccxbk; voxusmediamanager__ip=106.202.209.99; feGeneratedDeviceId=true; URLParams={\"gclid\":\"CjwKCAiA-8SdBhBGEiwAWdgtcA2Wz2o6pB3kAHj8oiBuWIvlLJB6EaFA32s5aWzHubuW_yb38K2igBoCNXkQAvD_BwE\",\"utm_medium\":\"138787040051\",\"utm_term\":\"580981415654\",\"utm_content\":\"Whitehat_Exact\",\"utm_source\":\"Google_IND_SearchB\",\"utm_campaign\":\"IND_SOK_ACQ_Whitehat_Search_Brand_Booked_Exact\"}; _gat_gtag_UA_127138116_5=1; _gat_gtag_UA_127138116_9=1; _hjSessionUser_1347255=eyJpZCI6ImY4YzYyODVjLTJkODEtNTkwMC05ZjEyLTQ0Nzk1MDNlOWNkMiIsImNyZWF0ZWQiOjE2NzI2MDI2ODE2MDYsImV4aXN0aW5nIjp0cnVlfQ==; _ga=GA1.1.1232396801.1672602680; _uetsid=a9a035108a0d11edba9cd3159b64b455; _uetvid=a9a067808a0d11ed8c9081fd03f25e5b; _dd_s=logs=1&id=7a889577-92c5-4dd4-93c0-d25ba28300a5&created=1672602676295&expire=1672603740152&rum=0; _ga_G1JDQQ3VRY=GS1.1.1672602679.1.1.1672602840.5.0.0; amplitude_id_76f99e8624755c84810d24c4e7c45f44whitehatjr.com=eyJkZXZpY2VJZCI6ImMzOGEyZmMyLTY1NjUtNDAzNC1iY2I5LTk2MTFmNzU0YzY5NlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY3MjYwMjY4MTk3NSwibGFzdEV2ZW50VGltZSI6MTY3MjYwMjg0MTEyNCwiZXZlbnRJZCI6MTIsImlkZW50aWZ5SWQiOjYsInNlcXVlbmNlTnVtYmVyIjoxOH0=",
+        "Origin": "https://code.whitehatjr.com",
+        "Referer": "https://code.whitehatjr.com/",
+        "whjr-amplitude-sessionid": "1672602681975",
+        "whjr-segment-anonymousid": "<random-uuid>"
+      },
+      "data": "{\"emailOrMobile\":\"<number>\",\"dialCode\":\"+91\",\"token\":\"\",\"tokenType\":\"reg_page\"}",
+      "method": "POST"
+    },
+    "dunzo": {
+      "url": "https://www.dunzo.com/api/v0/auth/sign-up",
+      "header": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Cookie": "dz_e=YTlkNjM5MDYtOTE3Ny00MDhhLWJkYWEtZTQ4ZDM3MTQ0OGI1X3Yx; connect.sid=s:lgQF5vKFgi-5oE9oQYjiYASgU6SwQeEB.SC+cst0Qb+XYThyvPosZF+yj9ojM/JFHCik4VanrQ5E; _gcl_au=1.1.235669932.1672604061; _ga_MH9JSX933B=GS1.1.1672604061.1.0.1672604061.0.0.0; _ga=GA1.2.1749996832.1672604061; _gid=GA1.2.769902056.1672604061; _gat_UA-74154936-4=1",
+        "correlation-id": "e9695e608a1011edb493916d04fc7a89",
+        "Origin": "https://www.dunzo.com",
+        "Referer": "https://www.dunzo.com/bangalore",
+        "sec-fetch-site": "same-origin",
+        "x-app-type": "PWA_WEB",
+        "x-app-version": "2.0.0",
+        "x-csrf-token": "zozjdYVY-WhVgNaja8VSUj26oNnG0p0Nidkg"
+      },
+      "data": "{\"phone\":\"<number>\",\"tos_accepted\":true}",
+      "method": "POST"
+    },
+    "1mg": {
+      "url": "https://www.1mg.com/auth_api/v6/create_token",
+      "header": {
+        "Accept": "application/vnd.healthkartplus.v11+json",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "cookie": "VISITOR-ID=<random-uuid>_acce55_1672681721; city=New Delhi; abVisitorId=393849; abExperimentShow=false; amoSessionId=<random-uuid>; _csrf=iaWxNzfa2WiLu6GUbTYPPFEn; isLocaleRedirect=false; isLocaleUIChange=false; geolocation=false; session=y3kxrI4PwKvg1v5iFPCPFA.if9wwVP1oynqflOTMQ017-mJZ0_t6JONR2U3FzRX-uJOhfB6gv-2zsU1IXCXOfN55bmMiQj89OgElzGL8bhOgPjgYe1rnyznYh_DXjcD3FWFJGdn_5c2iAeO96f0TmMQBgH-leCCVmVJUMZyzg5i8Q.1672681724039.144000000.P1v4wC8az8oHxLCcdS51emUFcgdwH9D0eYx2dZ59h8o; _gcl_au=1.1.1759948649.1672681724; singular_device_id=<random-uuid>; AMP_TOKEN=$ERROR; _ga=GA1.2.888852463.1672681735; _gid=GA1.2.1553503030.1672681735; _dc_gtm_UA-21820217-6=1; _gat_UA-21820217-6=1; __gads=ID=595c2fd18665ba6a:T=1672681737:S=ALNI_MZ75K3QIga6awlN1xBs94Fa4K9THw; __gpi=UID=00000b9c9d9633ea:T=1672681737:RT=1672681737:S=ALNI_MZWo0D0C3tMF1uTqQh5rGAnSCMufQ",
+        "pragma": "no-cache",
+        "hkp-platform": "Healthkartplus-0.0.1-Desktop",
+        "Origin": "https://www.1mg.com",
+        "Referer": "https://www.1mg.com/",
+        "visitor-id": "<random-uuid>_acce55_1672681721",
+        "sec-fetch-site": "same-origin",
+        "x-csrf-token": "a93T1IlL-qQN5JveNCCPRwanTidF7SIV_h8Y",
+        "x-html-canrender": "True",
+        "x-platform": "Desktop-0.0.1"
+      },
+      "data": "{\"number\":\"<number>\",\"email\":\"\",\"is_corporate_user\":false,\"signup_source\":\"\"}",
+      "method": "POST"
+    },
+    "healthplus": {
+      "url": "https://healthplus.flipkart.com/index.php/user/generateOTP",
+      "header": {
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": "T=TI166972760208800067287532369309358589068488872241024003604198610696; AMCVS_17EB401053DAF4840A490D4C@AdobeOrg=1; K-ACTION=null; pxcts=<random-uuid>; _pxvid=<random-uuid>; AMCV_17EB401053DAF4840A490D4C@AdobeOrg=-227196251|MCIDTS|19358|MCMID|17348096670268813750250599152566727952|MCAID|NONE|MCOPTOUT-1672478649s|NONE|MCAAMLH-1673008839|12|MCAAMB-1673076249|j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI; Network-Type=4g; SN=VI8A9706650CC048E4A834B84181B900A4.TOK24BBBE01BC0142F1A68A6A4930FF8604.1672599299.LO; S=d1t13Pz8/YT9Ucw4eIT8CPyo/P03E1t4s1rqUvW6fAE0X8AMJ6WEaY5fEOwBFfQHKq4cz6Tw3FhtRXbO3YzyPbMnevg==; s_sq=flipkart-prd=%26pid%3Dwww.flipkart.com%253A%26pidt%3D1%26oid%3DfunctionEr%2528%2529%257B%257D%26oidt%3D2%26ot%3DSUBMIT; sspl_csrf=bc88134039b04031b514b1756ef4812d; cisession_in_com=5e86a3f1a8d42aed5d79f7e88338afea; UIVAL=BwAFeA==; _gcl_au=1.1.1539496901.1672682464; PanIndiaStateName=Others; PanIndiaStateCode=OT; PanIndiaStateID=37; PanIndiaCityName=Others; PanIndiaCityID=6310; WHId=1; cartsynch=0; userLocation=Others; isPanIndia=Y; LocationSkipped=1; IsLab=0; AWSALBTG=n3EFKZ5e9bVvQo+nqPjrN+g/FB+m2YyZbsVL0r7kj6sKWQWUmrocsAPxN8RoETfpjTqvcfYBGOYfzNMjEttGqgdOrdaupDoqORj7LT6JDmNwxdye+h+WnCRVhK7g8mI0y+nIk5Ztfskx1dLr49wJnUOadrkB4drK7g8W3E8jC/0kVXTxUXc=; AWSALBTGCORS=n3EFKZ5e9bVvQo+nqPjrN+g/FB+m2YyZbsVL0r7kj6sKWQWUmrocsAPxN8RoETfpjTqvcfYBGOYfzNMjEttGqgdOrdaupDoqORj7LT6JDmNwxdye+h+WnCRVhK7g8mI0y+nIk5Ztfskx1dLr49wJnUOadrkB4drK7g8W3E8jC/0kVXTxUXc=; DeliveryDateVal=We will serve you soon; DeliveryDateCallTime=1672682468000; PHPSESSID=k9k73le7d6adevao7t8fol0uv6; GuestUserID=k9k73le7d6adevao7t8fol0uv6; csrf=7",
+        "Origin": "https://healthplus.flipkart.com",
+        "Referer": "https://healthplus.flipkart.com/",
+        "sec-fetch-site": "same-origin",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "csrf_test_name=bc88134039b04031b514b1756ef4812d&mobile=<number>&csrf=1&Login_Captcha=ETJEU",
+      "method": "GET"
+    },
+    "justdial": {
+      "url": "https://www.justdial.com/functions/whatsappverification.php",
+      "header": {
+        "Accept": "*/*",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "cookie": "PHPSESSID=3c1b50aa12038b8031099f9b72a390ae; TKY=c26da6add0fa22cdc89620a66889e9f9d6ab37a1d29235107b8fe2b530839db2; _ctok=1c5b24615f3e2d4fc6f7356a82990fb282271361f8bad947229faacaa0ba7594; main_city=Mumbai; ppc=/; Continent=AS; Ak_City=NEWDELHI; AKA_A2=A; bm_sz=E4F67D68CCAEEEF44C7AE6E90692FF21~YAAQlwVaaM+acy+FAQAAqVrDcxKVCiIe3memJ6I56l5FQqDFHJcLJVNvmo66JshJjUltdloeIK/cXI9xr/X8WDO52xQmdg0QH5/wwaSyGNPQ6Y3eZ593zUkNrbt/j22cD7xPPPo6ZKjYtSyMCR6xFscvgi2Rd1bqzy7LJvqW80v3T60pjKJjVKLlAwugRJX+9QNYuGgwA8Xs6VHELVBj4OVGI8xnYk17R13f9NhlvqNNKrSJW2SHOq//TpIJtQGSjqGYmfX/bi5UHuY9xrCcdkjefbKwb6Njgwq2pBDqn2Ab9H9joQ==~3355953~3223622; bm_mi=4265E3E7AB163454BD6F3FE07B775B32~YAAQlwVaaDabcy+FAQAAkWHDcxK0kBndxAqSuoqlaMbtxqhWhzWexYfRmsEcILTiLaxMf7g8hxKggQ8NkFDPJUxs3+reicPx81AOH5Fa0miT9vEPi7bbVt/5Wre8IP3tIZbzarpEdby2yzREWI1FxwfcQj3y9vCd3z8PUCo3wUwKBKWNX/ohaOG6EUJxM5Fv58eTIqEjaCsGr4IOVNV6766q9txCNTVfQYrhja06mp55iqHpvMsulmZylGvM4qriSL3HyOhkwJSlWYgEx9qoDsVpd/P/MwYiaPB77iu94y9T6HZ+q1sr5FDoQ/lKpA==~1; _gid=GA1.2.1085319027.1672684462; _ga_5PY4KYQRFS=GS1.1.1672684463.1.0.1672684463.60.0.0; _ga=GA1.1.1699387130.1672684462; ak_bmsc=1B2C1BBAE26A176ACCB1945425723BA8~000000000000000000000000000000~YAAQlwVaaGqbcy+FAQAAjmXDcxL/i10AZ9U7m9ru2x/oxoINe6PYmazjalptdXRh3CUqUMDWhnBPf5p3JNUDOhDk8UecjqXe0KZbp3eBS/JlMgRXIWdOJxDONsZah950R8njFyilVTE/E3KoZ91W+0QMDbJyCX7oHR2NI7HK4iqHwmqvD2mLtV4jccbaWRyzZ6GSMnuttjOxANSRfFb9YfwyiGND7B/WC1ijawC6JOHXgXR2jJJdPF9zNJuJ6U/sM5gUvdqmWotepjuQzMlgUPCkFwQ1ie63j04tHgeuEi9vXBvl5t0Ub88wU+XANPpLL2EFIqt0Y+Z0Sjl6pfhamrakazpmQdHAI6MgAlImtk4r2sgqObnPlfm694f8EArV3jrJErXys4oLOKVo0v1mvFW+g+22Yxy3QXcM1WL7LDoE8LPlRXLHU5nQpF7Mhk2mxRgN5sxQN9PshGYF6X9Di4lGv+dlcC6jGpWuGRGMrXsh5V5cciosu3JvF4XG4CiFJVjp/3FFOaaOOilZ4K8aMjJJb173; bm_sv=8C5584447E9EB8AFB9D919FAFEA45566~YAAQlwVaaHebcy+FAQAARWbDcxLKnE96TFM+7cnL0jwQ9xp+JWT612ZSzy1/BR0/aYcAar9sFgwblqZmFfdGbhlpdzA910qGaB9/9RvNrGWJt0vHqjluGZ/1ERBrTI1+2De2cC28u2xNYmyGnBCBGRuzcA6ypnhQ/3GkAb9P2NzJyHAiHnEVKtL5TIW5bwjFY9AmRz6pu0Ytgpf6zCx5OpdMJAzivveeT5uugzg29VaGUWmM5+6zjommlK+XgQ5qLqg=~1; _abck=451705190A134A0B14FAABC9CBA81980~0~YAAQlwVaaHybcy+FAQAAwWbDcwk2WZjNt7nTR5sltcT9EoE6Fp3b71YMLnUnFd5D7obT5PyS7WM4EDn38nXaDZ48IJeOJApvBlddquAMGTS00up4mf8HeZFm204pSFuhomn4P8LZkCUEjcPShMcSNTLouw/mKFR3KJJfLzxLTDcPxGQD5KQ1pvb5i0cYh+GV/g781VWedPg0uW7fD1mb+0VLynXxtXBM8DweKrHLeZdtXdu0pWgurcuOZEvjAx8Ng/GkoxqMGTnC2X5431qTy7/BcC2dQj2Ho18CTzQYQFXCx+Rq0ianj68ifOyrGwj3cvziD5XjbWoMaxt4juhx+1gMrjgwpZEFfBbwl+AxIEU5Ubn9jPfOF/OHFE1hrmUDC8q9GdPfIav7FKIJB1NA1y1oS3/gIPc=~-1~||-1||~-1; scity=Mumbai; usrcity=Mumbai; inweb_city=Mumbai; dealBackCity=Mumbai",
+        "Origin": "https://www.justdial.com",
+        "Referer": "https://www.justdial.com/",
+        "sec-fetch-site": "same-origin",
+        "x-frsc-token": "c26da6add0fa22cdc89620a66889e9f9d6ab37a1d29235107b8fe2b530839db2",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "mob=<number>&vcode=&rsend=0&name=Seggs",
+      "method": "POST"
+    },
+    "pharmeasy": {
+      "url": "https://pharmeasy.in/apt-api/login/send-otp",
+      "header": {
+        "cookie": "NPAB_Var=new; NPAB_XDI=LlmhzOCAo814MpbuB4DXB; _gcl_au=1.1.1370693836.1670513041; dtm_token_sc=AQEKi9HwuBu45wEPw1HjAQEBAQA; dtm_token=AQEKi9HwuBu45wEPw1HjAQEBAQA; WZRK_G=0477af65b444412bb98ee0775d76b09c; XdI=f95c91e7887b035e54aaa15a9db90b2b; X-App-Version=2.1; X-Phone-Platform=web; X-IP=150.129.110.77%2C%2096.17.168.70; X-Pincode=700060; X-Default-City=3; pe_utm_source=google; pe_utm_data=%7B%22gclid%22%3A%22Cj0KCQiAnsqdBhCGARIsAAyjYjTpcLpcfzY6kYPSQexsMyk1hP7-vEXoEawASJNPC5K3kUsLJeOsV-saAjSoEALw_wcB%22%2C%22isSEM%22%3A%22true%22%2C%22utm_adgroup%22%3A%22Medicine%22%2C%22utm_campaign%22%3A%22GSNB_Medical_New_Structure_v2%22%2C%22utm_medium%22%3A%22cpc%22%2C%22utm_source%22%3A%22google%22%7D; XPESD=%7B%22session_id%22%3A%22s_w_f95c91e7887b035e54aaa15a9db90b2b_1672687548000%22%2C%22session_id_flag%22%3A%22ct_id%22%2C%22media_source%22%3A%22google%22%2C%22campaign%22%3A%22GSNB_Medical_New_Structure_v2%22%2C%22gclid%22%3A%22Cj0KCQiAnsqdBhCGARIsAAyjYjTpcLpcfzY6kYPSQexsMyk1hP7-vEXoEawASJNPC5K3kUsLJeOsV-saAjSoEALw_wcB%22%2C%22medium%22%3A%22cpc%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22utm_adgroup%22%3A%22Medicine%22%2C%22session_start_time%22%3A%222023-01-02T19%3A25%3A48.292Z%22%7D; XPESS_v2=s_w_f95c91e7887b035e54aaa15a9db90b2b_1672687548000; utmsourcesession=google; _gid=GA1.2.1948563827.1672687550; _gac_UA-60621013-1=1.1672687550.Cj0KCQiAnsqdBhCGARIsAAyjYjTpcLpcfzY6kYPSQexsMyk1hP7-vEXoEawASJNPC5K3kUsLJeOsV-saAjSoEALw_wcB; _gat_UA-60621013-1=1; _ga=GA1.1.46461264.1670513041; _ga_J4XE9SW84F=GS1.1.1672687549.2.1.1672687549.60.0.0; _gcl_aw=GCL.1672687552.Cj0KCQiAnsqdBhCGARIsAAyjYjTpcLpcfzY6kYPSQexsMyk1hP7-vEXoEawASJNPC5K3kUsLJeOsV-saAjSoEALw_wcB; WZRK_S_R9Z-WWR-854Z=%7B%22p%22%3A1%2C%22s%22%3A1672687618%2C%22t%22%3A1672687561%7D",
+        "Origin": "https://pharmeasy.in",
+        "Referer": "https://pharmeasy.in/?isSEM=true&utm_source=google&utm_medium=cpc&utm_campaign=GSNB_Medical_New_Structure_v2&utm_adgroup=Medicine&gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjTpcLpcfzY6kYPSQexsMyk1hP7-vEXoEawASJNPC5K3kUsLJeOsV-saAjSoEALw_wcB",
+        "sec-fetch-site": "same-origin",
+        "x-instana-l": "1,correlationType=web;correlationId=dbb58fc5b95617f5",
+        "x-instana-s": "dbb58fc5b95617f5",
+        "x-instana-t": "dbb58fc5b95617f5"
+      },
+      "data": "{\"param\":\"<number>\"}",
+      "method": "POST"
+    },
+    "confirmtkt": {
+      "url": "https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber=<number>&newOtp=true&retry=false&testparamsp=true",
+      "header": {
+        "Host": "securedapi.confirmtkt.com",
+        "Origin": "https://www.confirmtkt.com",
+        "Referer": "https://www.confirmtkt.com/"
+      },
+      "data": "",
+      "method": "GET"
+    },
+    "allensolly": {
+      "url": "https://www.allensolly.com/capillarylogin/customerRegisterOtpCheck?isAjax=true",
+      "header": {
+        "Accept": "*/*",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": "_gcl_au=1.1.1746563371.1672729703; AMCVS_049C6B575E31A8420A495F97@AdobeOrg=1; _gid=GA1.2.908192225.1672729704; G_ENABLED_IDPS=google; AMCV_049C6B575E31A8420A495F97@AdobeOrg=1176715910|MCIDTS|19361|MCMID|10820762125777069725838233465383394337|MCOPTOUT-1672736910s|NONE|vVersion|5.4.0; _ga_P2BSC3WYE5=GS1.1.1672729703.1.1.1672729710.53.0.0; _ga=GA1.2.418717569.1672729704; 864a8a7bed60d3ae7f6a56790e32556f=P74ST/Xdo075OjBIqEercWu0Knn++hMjFZwdrX5oEVVbgnuxaisQw1P3D7iRxFJicuPeqkp4UTLe1QWuehs5AE6Le8IanZBtLpE0yadyyAm/VTQ7xaeREI8AK/YJ0qy3Fwj46J0L6YFt0fhmbNyD0z7TEAGFcuzAIU2YVfJWAxjwVzuKOSMpkoQmI8u7ZQrkrGN/b5HuZbO9zIz7bWgbyoYlelw3GYJx9xv/3nLHG+JWnSGyPJA199/CTq3TsuoJMBk4dN1KcSd9KlPHHs9OMCiWVW5y8BYCcsKGlUHlFV4YDnyMhY8PN6WmUAi9fIjeBT0q8GFzcOloR6trboYK8j9URfH88rDpsnn/M+zEpf4aAO2UB7qEv8NpoYJi/6nEpbCgAVEvwfsx3eaFc8NftFGqHXzFU75eYfotGHaOiySZcCoQ/ebfynXufqZKiXQtKZ2DQyAEBzu9eocRvRK6IN+xogZpSDCKfM6xjMXC5k7B+olIlAiYcSGgDERnl4YKDkFh1JuiWctBXHp6CbPCMnEeVLWs0QFH+uPopn5SQUH/hRDzSxM5YtwP9XSy8QV7WWVazWYZrVUFXPDaqW+in3q9W7q5A146DxX2XNTVEh+TAYJ6onQ7u4W8ptp8dKajxat3MxTHR+y+7wMjv/g4XEzJxz+tL9dr/RPOoiYBERUTYeZbVs1uRKpOM6u7yCASbmUfmMWi6fnmtCjN4A2pJ40qj5o+Z0eMIIhIQXPXgRq0WLyyPosnkcjfMnyV1dGi2MyUhIvyhc/5ETiL7JnbmCWOuwnUgN9FArm/YZaP09QoirhiXtYC/U6IRUk7M8sBAcfXRUGCTgL0nSWdSz4PReGs1gjJeezo0RUsyvgjapiIAx++BP38emAmWqDFdpXbTymsf1xcd9jx4BXuCfELcquTbg59IU4U0j5BKrbql3w2Y8sOAqCn6xr8OEXp3YqGXCW0RsYZsAqJZ81cCIndJelLz+JYpYt+tv8QmTGIUohfV3m/0tSms+dPV1rD3HT4j0ShWxhnZnKTYsWcCxUbA3Ppydr4dTSPY3RwPxGQAkPSIMyG1p9fbzLmYCZxZdJ+CpRDv7x6L83PK2Acjp1ha5PBXHB6weK9mfffPhij/5xEtnfsxemgaiIWlKuViAE6vWj3K07F8knZQjX7xa0vCWjUH+6AtkuqQNGZzlkMAKhj/KF1fBJBgiNyLkUonMlp0kCwPchjNfqYYCtpJMEFD1PyqlV2p5NRq8uGPbePpf2b1oJoWz+uiMql1qQor8Pxb4177522d77170ca5554826b0e7d1978e9e97143; rtb-global=<random-uuid>",
+        "Origin": "https://www.allensolly.com",
+        "Referer": "https://www.allensolly.com/",
+        "sec-fetch-site": "same-origin",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "mobileoremail=<number>&ajax=1&chkTrack=0&capillaryChk=0&capillaryCustEmail=&gender-radio=1&firstname=seggs&mobile=&email=AYEGATOHMODIHE@gmail.com",
+      "method": "POST"
+    },
+    "treebo": {
+      "url": "https://graphql.treebo.com/",
+      "header": {
+        "Accept": "*/*",
+        "authorization": "",
+        "Origin": "https://www.treebo.com",
+        "Referer": "https://www.treebo.com/",
+        "x-application": "Treebo Web",
+        "x-application-id": "direct-web"
+      },
+      "data": "{\"operationName\":\"verifyCaptchaMutation\",\"variables\":{\"mobile\":\"<number>\",\"channel\":\"web\",\"application\":\"treebo-website\",\"token\":\"03AD1IbLD1dccpZp_TESZhzOQ81Fkdo3qIrM_w-SJZOXdsd0Ws3ZbELxBo5KUaeXYh0G_INsfu6fySv7coMcYBcD8jyu4OG8YB_6W_pCY2DRrGh4h0rFLJ_4PaM4LUDgbFtUP_FyvF-BIeNFmiArvT0ITSG3IReEURJl5OZBU74DV8lonTvN9bPjvPcWoZDWkv5GovFpQQUjdNkzCY6gpVmRi94WTDUZC1Nk1UpFedOc1vJL52VwbvHcsnszl2Pl1j_8o22Gviq0bh4rviz86cuPiYtzQL50XwbkwQUhyjlS9iYYCRuKdjOlwrsudW2CGCyE6Yond-7NbJFgsn0qutaK-3Oq9mEd6U88Sq52ltKyeh0p68uvCT-8YPMCVgjUk8JtY_Ty0uaAz9aYrhtvTdkJ5SBzQIys1CXXqhUxg3qJbo-E34OYCo3lexp0ZGSp67elwqUb_sBH673aTix_7-uUTTtazPkfytHDp6pehC2AFYVfjw1lhOAos5yIEeh3W1THng4GhrzRcvzT8qQrI56hCb-wxg5nyGCeb4iRhMaT9ClAwYmCKak-6bpweGBbKnUet0N2nI6ahL\"},\"query\":\"mutation verifyCaptchaMutation($token: String!, $mobile: String, $channel: String, $email: String) {\\n  captchaVerifyV2(token: $token, mobile: $mobile, channel: $channel, email: $email) {\\n    code\\n    data\\n    __typename\\n  }\\n}\\n\"}",
+      "method": "POST"
+    },
+    "Bumble": {
+      "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
+      "header": {
+        "Accept": "*/*",
+        "cookie": "session_cookie_name=session; device_id=<random-uuid>; first_web_visit_id=8231e479d2bbd9a3ad50a84e258e81bd79a6464c; last_referred_web_visit_id=8231e479d2bbd9a3ad50a84e258e81bd79a6464c; dnsDisplayed=undefined; ccpaApplies=false; signedLspa=undefined; _sp_su=false; ccpaUUID=91e77969-41ca-4333-ad4f-af365273978c; buzz_lang_code=en-us; HDR-X-User-id=; session=s1:9999:naS20XbXwfP9i7v3EpTPQHojNtRBUFa6myzgPSkw",
+        "Host": "bumble.com",
+        "Origin": "https://bumble.com",
+        "Referer": "https://bumble.com/get-started",
+        "X-Message-type": "640",
+        "X-Pingback": "7cd8d913d6ffab53ef723c2edb00452e",
+        "x-use-session-cookie": "1",
+        "Sec-Fetch-Site": "same-origin"
+      },
+      "data": "{\"$gpb\":\"badoo.bma.BadooMessage\",\"body\":[{\"message_type\":640,\"server_validate_phone_number\":{\"phone_prefix\":\"+91\",\"phone\":\"<number>\",\"context\":203}}],\"message_id\":25,\"message_type\":640,\"version\":1,\"is_background\":false}",
+      "method": "POST"
+    },
+    "OneCard": {
+      "url": "https://card.fplabs.tech:9000/onecard/bff/open/v1/web/otp/generate",
+      "header": {
+        "authorization": "Basic ZnBsYWJzOjFGUExhYnMyMzIw",
+        "data_attributes": "",
+        "Origin": "https://apply.getonecard.app",
+        "partner_name": "",
+        "Referer": "https://apply.getonecard.app/",
+        "Sec-Fetch-Site": "cross-site",
+        "utm_campaign": "",
+        "utm_id": "",
+        "utm_medium": "",
+        "utm_source": ""
+      },
+      "data": "{\"mobile\":\"<number>\",\"deviceType\":\"WEB\",\"whatsappConsent\":true}",
+      "method": "POST"
+    },
+    "Zee5": {
+      "url": "https://auth.zee5.com/v1/user/sendotp",
+      "header": {
+        "device_id": "BNRe8iymb1U5VySHOiKg000000000000",
+        "esk": "Qk5SZThpeW1iMVU1VnlTSE9pS2cwMDAwMDAwMDAwMDBfX2dCUWFaTGlOZEdOOVVzQ0taYWxvZ2h6OXQ5U3RXTFNEX18xNjcyNzU1NjczNjc5",
+        "Origin": "https://www.zee5.com",
+        "Referer": "https://www.zee5.com/"
+      },
+      "data": "{\"phoneno\":\"91<number>\"}",
+      "method": "POST"
+    },
+    "netmeds": {
+      "url": "https://www.netmeds.com/mst/rest/v1/session/initiate/using_mobileno_n_otp?mobile_no=<number>",
+      "header": {
+        "cookie": "_ALGOLIA=anonymous-<random-uuid>; _gcl_au=1.1.543625864.1672746987; _nmsAttr=ADW-CPC-Search-NMS-Brand; _nmsSource=ADW-CPC-Search-NMS-Brand; _nmsMedium=CPC; _nmsCampaign=ADW-CPC-Search-NMS-Brand; _nmsUTMtrackingsource=ADW-CPC-Search-NMS-Brand&ADW-CPC-Search-NMS-Brand&CPC&ADW-CPC-Search-NMS-Brand; _nmstracking=ADW-CPC-Search-NMS-Brand; nms_mgo_pincode=110002; nms_mgo_city=Central Delhi; nms_mgo_state_code=DL; nms_mgo_state_name=Delhi; _fbp=fb.1.1672746987800.708489776; _gid=GA1.2.1639121884.1672746988; _gac_UA-63910444-1=1.1672746988.EAIaIQobChMI45KLr6yr_AIVaZlmAh3dGwBcEAAYASAAEgJ2DfD_BwE; _gat_UA-63910444-1=1; _gcl_aw=GCL.1672746988.EAIaIQobChMI45KLr6yr_AIVaZlmAh3dGwBcEAAYASAAEgJ2DfD_BwE; _ga_ZD1BC704WF=GS1.1.1672746987.1.1.1672746989.58.0.0; _ga=GA1.2.832041078.1672746988; _uetsid=a7a870408b5d11edafc033b428fd7a20; _uetvid=a7a884208b5d11ed9d3c07f208b32bee; _gat=1; G_ENABLED_IDPS=google; _ga_FPG0XJGD43=GS1.1.1672746987.1.1.1672747009.38.0.0",
+        "referer": "https://www.netmeds.com/customer/account/login"
+      },
+      "data": "",
+      "method": "GET"
+    },
+    "medplus": {
+      "url": "https://www.medplusmart.com/my-profile/getOtp?MOBILE_NUMBER=<number>&tokenId=1A1BF5C516428A7F52FB2D998BF035B4&customerId=&timeStapm=2023-01-03T12:09:32.556Z",
+      "header": {
+        "cookie": "ROUTEID=.jvm0; bm_sz=D831BC562FAFB8F352D5235032E476CA~YAAQXW/ZF0oTa/KEAQAAhTmKdxKbtaqkl5Dcttae1+tl1UOntMswMFqKsV7uB2Y4c5R3kpWSWrGi4w1JdN3InJnJIqA+VKOHoFnyn/o9Ho7DKM3wXrabG3dzOXtBA5OihFIYBmV0ZX8oD4r14e2ZZsJ2eevXZityq4PVdQQ/H8CkrEob52apbLH1NE1xJRX0sY/C9BfKfHc36twrrBvjEBnQSMOH/H0R6RaPHXlZL2L3e3bcGf1o4L4EkIxxB9ANv6VrLskxcDAVToPdEgNEHUtQe9io5YnuQF9Q2RlDhRtyeIltZoqCkA==~3228213~3748657; _gcl_au=1.1.462051105.1672747758; _fbp=fb.1.1672747757965.407560740; ak_bmsc=CC7EA8C7B58D685978C1FE36ADCE72B4~000000000000000000000000000000~YAAQXW/ZF1ITa/KEAQAAhUCKdxIDL5fKatJC/z1zfQ2qddd6QjsIS/cfD/yncQq9P9EadNS+0smO6eLT5tTOBSMisK61XP4Juy3OdzA+7B/DG8RERJoai9nd52VK0Fiz1d90fyuTUA+EyWZRSrw9yggJD7/ujRyBEZlNjkAhXDfeSipjSLoYQo84x5E+w1H74kB4PzMgPDwXdBpFz32Pr4Gwu6Ry54iM0Ch3Ca59gSHqzA1MA5UR975vMxNYUsp54Z+4/DlmXbmmqKQNudsCzZ7B6CJ1XzbaLldDbSKYxZaFi5c/0oOfPDNSaq6ypEyVR8LZ9d5vuYrhXK87m9RF7DGW85wXbUfPU7fpI4AiiqXHrTuZNaytcgCpAknducRlcYDlws4wMH6ntajTnl4f3XlVhBcmFVrnJEa5LjwphrVXwcMlY1mRiJkPZMH+JFhKN5khYIdtBVwc84fnaY0BZe19ezf6Iphz6fdlFqJSG3zVeA5TcvgX+o1sFRfA4avH; _abck=47055C10D08B30D9E01AFC2536BA3733~0~YAAQXW/ZF1MTa/KEAQAA2UGKdwm5e6Z/KKxLZ7vgQQqT87jS5oepmCcvMDG2mqvw9IiByOtkWkE6lwyZuGqDZwxll/yLdqJV88SvvgBVzgXn8M/1b9Ek3vUZ+1neQPfWqzW5GXo/OtUBd/DVUJCPr9LRCGFrl0Gnc/FbLfQcCblsunzVn0M0BKdiS5apJVZiiz7QVXKx4lf0SafyQ5RRsI1yQRu5CnFrgqzIl76U1f71jttEWcskwMt9FKgq7d27wyk7tM7ZHukYy0p3WnXpPUxQYyNVpVr7HELt+d6KhQh7eYAtJgCc37uMY7gTHknGC7XSxGiKLF8sLYvQUzD5vkIfDyI2BUbsFtbY20m40fcH1IJ7EXWH+5EyrjACrcFld4lC9kbuKJgXEXkLpqfWk/ETp6T3O190bNpmRbI=~-1~||-1||~-1; JSESSIONID=DC53D8A35F1BFBBEE06893B2245168E0; tokenId=1A1BF5C516428A7F52FB2D998BF035B4; latLong=\"17.472083, 78.428701\"; pincode=500018; b_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiItMSIsImlzcyI6Ind3dy5tZWRwbHVzbWFydC5jb20iLCJleHAiOjE2NzI4MzQyMjh9.6v6i3U6Z8IsOlZChymj1HwXlcwf-SFW5pBtbo9qq4Ow; _ga=GA1.2.380570095.1672747759; _gid=GA1.2.2056841644.1672747759; _gat_UA-48460519-1=1; isLocalityMatured=Y; customerId=; bm_sv=2945EDA70506A175AA7D5A4AED211E68~YAAQXW/ZF40Ta/KEAQAALUeKdxJY+I0e0+inR2rLFXV9hBidxvAtLTGupKcKaGCk6PA8iA7G0pFzxYNT4nVXQRtf6DWXBffxHYqOwpEw+9Sn7GAajhdDw3TP4+1xdft8Jk9tP+MMAARJatyhQ9oiWpYPOuJnbGAhI5I2vOtYAUjZ2IJ5OEP5X15DxwUQVcsuT0ADKbePdVYsTTFKlcRjbdN9vU0cyojmBbmN7MI48BxLa/cJNLm7Z+xNL/dFuJN33YJJLhY=~1; _clck=1ng5xe5|1|f7y|0; _clsk=ytbiwb|1672747761281|1|1|l.clarity.ms/collect",
+        "referer": "https://www.medplusmart.com/",
+        "sec-fetch-site": "same-origin",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "",
+      "method": "GET"
+    },
+    "team11": {
+      "url": "https://web.myteam11.com/account/v1/send/otp",
+      "header": {
+        "appype": "3",
+        "campaignid": "",
+        "loginauthtoken": "42fbce0f-973d-4531-9702-fa678-d0a6ab",
+        "origin": "https://www.myteam11.com",
+        "referer": "https://www.myteam11.com",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "{\"Mobile\":\"<number>\",\"ReferCode\":null}",
+      "method": "POST"
+    },
+    "dream11": {
+      "url": "https://api.dream11.com/sendsmslink",
+      "header": {
+        "accept": "*/*",
+        "content-type": "application/x-www-form-urlencoded",
+        "origin": "https://cdnflags.dream11.com",
+        "referer": "https://cdnflags.dream11.com"
+      },
+      "data": "siteId=1&mobileNum=<number>&appType=androidfull&abtest=2&ran=5.52",
+      "method": "POST"
+    },
+    "playerzpot": {
+      "url": "https://playerzpot.com/download_link_curl",
+      "header": {
+        "accept": "*/*",
+        "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryxUigieAqcAgf3im4",
+        "cookie": "_gcl_au=1.1.1736316302.1672751301; _gid=GA1.2.213138297.1672751301; _ga_FM0KVKPBW4=GS1.1.1672756360.2.0.1672756360.60.0.0; _ga=GA1.2.1237091800.1672751301; _gat_UA-63822846-24=1",
+        "origin": "https://playerzpot.com",
+        "referer": "https://playerzpot.com/",
+        "sec-fetch-site": "same-origin"
+      },
+      "data": "------WebKitFormBoundaryxUigieAqcAgf3im4\nContent-Disposition: form-data; name=\"mobile_no\"\n\n<number>\n------WebKitFormBoundaryxUigieAqcAgf3im4--",
+      "method": "POST"
+    },
+    "ullu": {
+      "url": "https://ullu.app/ulluCore/api/v1/otp/send/new/cdiOpn?mobileNumber=<number>",
+      "header": {
+        "Origin": "https://ullu.app",
+        "Referer": "https://ullu.app/",
+        "Sec-Fetch-Site": "same-origin",
+        "cookie": "_ga=GA1.1.1947076520.1672759972; _ga_QPY6BPK7QN=GS1.1.1672759971.1.0.1672759977.0.0.0"
+      },
+      "data": "",
+      "method": "POST"
+    },
+    "onlinemakaan": {
+      "url": "https://onlinemakaan.com/otp.php",
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "cache-control": "max-age=0",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "cookie": "PHPSESSID=nhb0p0b8chlm3qme3mu76pv164",
+        "Origin": "https://onlinemakaan.com",
+        "Referer": "https://onlinemakaan.com/login.php",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1"
+      },
+      "data": "name=Seggs&city=ModiKaGhar&pass=Seggs%40123x&re_pass=Seggs%40123x&phone=<number>&profile=Individual&signup=Register",
+      "method": "POST"
+    },
+    "carrier360": {
+      "url": "https://www.careers360.com/ajax/no-cache/user/otp-send",
+      "header": {
+        "Accept": "*/*",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "cookie": "csrftoken=dHVSrCtO70iDAIeK6DeLByw97QGfCcD27e6YekD0QjbULRaqLTmpE4Uhjv4Gx1sT; WZRK_G=c2e2c313ac994aaf9dd9ecc6cd03275d; _gcl_au=1.1.2060836561.1672844321; _gid=GA1.2.645638060.1672844321; _omappvp=s4O9zmdEvoc3FVk4nz5JpOLa7GG4yY9Fdh22Np1x9DtUAljwYnHpKMmBBUmzpnKMlasNL1fkRBuow639ZAXaJ0ylgwuuv0l0; G_ENABLED_IDPS=google; common_sign_up_show=1; e_target_year=2025; _ga_GCM1JTVF8P=GS1.1.1672844321.1.1.1672844392.0.0.0; _omappvs=1672844392757; WZRK_S_654-ZZ4-5Z5Z={\"p\":1,\"s\":1672844322,\"t\":1672844438}; _ga=GA1.2.1095820767.1672844321; _gat_UA-46098128-1=1",
+        "origin": "https://www.careers360.com",
+        "referer": "https://www.careers360.com/user/otp-verify/bc28422de6a05794d94767026b6951a8?destination=?click_location=header&popup=iframe&google_success=header",
+        "sec-fetch-site": "same-origin",
+        "x-csrftoken": "VHN8rDfOaBpV3h5ItJyKkralJTqLcbgjPeYeelp0TUiceq1o8ZGonXytVyOc705a",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "data": "mobile_number=<number>&method=sms&uid=760837980",
+      "method": "POST"
+    },
+    "unacademy": {
+      "url": "https://unacademy.com/api/v3/user/user_check/?enable-email=true",
+      "header": {
+        "Accept": "*/*",
+        "cookie": "_gcl_au=1.1.2032088967.1671361553; __gtm_referrer=https://www.google.com/; isDarkModeOn=; proxy-user-uid=b20d1315_2f36_4453_ad4a_92c1ba53cccd; anonymous_session_id=13dda7cf_8de6_4d1f_a2b8_ab938d73be71; un_session_id=41ebd77c_6dab_4c0c_a099_6479c88c7142; _gid=GA1.2.1072407381.1672848927; _gat_UA-69016858-2=1; _gat_UA-5306665-19=1; _ga=GA1.2.803986466.1671361553; _ga_6JX23YC5TQ=GS1.1.1672848926.2.0.1672848928.0.0.0",
+        "Origin": "https://unacademy.com",
+        "Referer": "https://unacademy.com/",
+        "sec-fetch-site": "same-origin",
+        "x-platform": "0"
+      },
+      "data": "{\"phone\":\"<number>\",\"country_code\":\"IN\",\"otp_type\":1,\"email\":\"\",\"send_otp\":true,\"is_un_teach_user\":false}",
+      "method": "POST"
+    },
+    "lovelocal": {
+      "url": "https://homedeliverybackend.mpaani.com/auth/send-otp",
+      "header": {
+        "Client-Code": "charmander",
+        "Accept-Language": "en",
+        "Host": "homedeliverybackend.mpaani.com",
+        "Origin": "https://www.lovelocal.in",
+        "Referer": "https://www.lovelocal.in/",
+        "Sec-Fetch-Site": "cross-site",
+        "x-access-token": ""
+      },
+      "data": "{\"phone_number\":\"<number>\",\"role\":\"CUSTOMER\"}",
+      "method": "POST"
+    }
+  },
+  "call": {
+    "whitehatjr": {
+      "url": "https://api.whitehatjr.com/api/V1/otp/generate?deviceId=<random-uuid>&timezone=Asia%2FCalcutta&trackingCode=trackingCode%7CAB-11194-V-B%7CAB-11169-V-B%7CAB-11140-V-A%7CAB-11159-V-A%7CAB-11137-V-A%7CAB-11164-V-A%7CAB-11182-V-A%7CAB-11208-V-B%7CAB-11186-V-A%7CAB-11167-V-A%7CAB-22-V-B%7CAB-11183-V-B%7CAB-29-V-B%7CAB-11188-V-B%7CAB-11150-V-B%7CAB-11142-V-A%7CAB-11192-V-A%7CAB-11154-V-A%7CAB-24-V-C%7CAB-11200-V-A%7CAB-11151-V-B%7CAB-11195-V-A%7CAB-26-V-B%7CAB-11136-V-A%7CAB-11198-V-A%7CAB-13-V-B%7CAB-11152-V-B%7CAB-11166-V-A%7CAB-11196-V-A%7CAB-11193-V-B%7CAB-11206-V-A%7CAB-11184-V-A%7CAB-31-V-A%7CAB-18-V-A%7CAB-11181-V-B%7CAB-11176-V-B%7CAB-11191-V-B%7CAB-11209-V-A%7CAB-11156-V-A%7CAB-28-V-B%7CAB-15-V-A%7CAB-34-V-A%7CAB-11204-V-A%7CAB-11163-V-A%7CAB-11155-V-A%7CAB-25-V-B%7CAB-11135-V-A%7CAB-11201-V-B%7CAB-21-V-C%7CAB-11161-V-A%7CAB-11202-V-A%7CAB-11153-V-A%7CAB-23-V-C%7CAB-17-V-B%7CAB-37-V-B%7CAB-11175-V-A%7CAB-12-V-A%7CAB-11165-V-A%7CAB-27-V-B%7CAB-11160-V-B&regionId=IN&courseType=CODING&brandId=whitehatjr&timestamp=1672845570178&_vercel_no_cache=1",
+      "header": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "cookie": "deviceId=<random-uuid>; _gcl_au=1.1.1478470509.1672845291; _gid=GA1.2.1558097178.1672845292; _li_dcdm_c=.whitehatjr.com; _lc2_fpi=b384e0c480b4--01gnynjwxt3y8yc4paes6kydqw; _hsu=hs.1672845292517.f8086af958; _hscl=; _schn=_iwdd07; _scid=faf91d80-931a-448f-970e-594e974de224; ajs_anonymous_id=822a7eda-5e64-4d35-acc9-1387d9aec43d; _tt_enable_cookie=1; _ttp=8ja13awkcfiRID_AOMLBXhWwuL8; amplitude_idundefinedwhitehatjr.com=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _hjFirstSeen=1; _hjSession_1347255=eyJpZCI6Ijg3NmE2MzcyLTY5YWYtNDc5Yy1hNDY3LTFhZGJkMjQwNWE1MCIsImNyZWF0ZWQiOjE2NzI4NDUyOTY0MDIsImluU2FtcGxlIjp0cnVlfQ==; abTests=trackingCode%7CAB-11194-V-B%7CAB-11169-V-B%7CAB-11140-V-A%7CAB-11159-V-A%7CAB-11137-V-A%7CAB-11164-V-A%7CAB-11182-V-A%7CAB-11208-V-B%7CAB-11186-V-A%7CAB-11167-V-A%7CAB-22-V-B%7CAB-11183-V-B%7CAB-29-V-B%7CAB-11188-V-B%7CAB-11150-V-B%7CAB-11142-V-A%7CAB-11192-V-A%7CAB-11154-V-A%7CAB-24-V-C%7CAB-11200-V-A%7CAB-11151-V-B%7CAB-11195-V-A%7CAB-26-V-B%7CAB-11136-V-A%7CAB-11198-V-A%7CAB-13-V-B%7CAB-11152-V-B%7CAB-11166-V-A%7CAB-11196-V-A%7CAB-11193-V-B%7CAB-11206-V-A%7CAB-11184-V-A%7CAB-31-V-A%7CAB-18-V-A%7CAB-11181-V-B%7CAB-11176-V-B%7CAB-11191-V-B%7CAB-11209-V-A%7CAB-11156-V-A%7CAB-28-V-B%7CAB-15-V-A%7CAB-34-V-A%7CAB-11204-V-A%7CAB-11163-V-A%7CAB-11155-V-A%7CAB-25-V-B%7CAB-11135-V-A%7CAB-11201-V-B%7CAB-21-V-C%7CAB-11161-V-A%7CAB-11202-V-A%7CAB-11153-V-A%7CAB-23-V-C%7CAB-17-V-B%7CAB-37-V-B%7CAB-11175-V-A%7CAB-12-V-A%7CAB-11165-V-A%7CAB-27-V-B%7CAB-11160-V-B; AB_DATA_GENERATED=true; feGeneratedDeviceId=false; _ga=GA1.2.645093013.1672845292; _uetsid=89d03e008c4211edb1377b41fbc17de2; _uetvid=89d0c4408c4211ed9501e991d9112bf1; _hjSessionUser_1347255=eyJpZCI6ImVlOWQ5Y2U1LTRiZGQtNTEyOS1iODVlLTE4Yzg3ZGRmN2IxOCIsImNyZWF0ZWQiOjE2NzI4NDUyOTU5NDksImV4aXN0aW5nIjp0cnVlfQ==; _sctr=1|1672770600000; voxusmediamanager_id=16728453137920.7822885601976992xa8e8akpv8; voxusmediamanager__ip=150.129.110.77; _gat_gtag_UA_127138116_5=1; _ga_G1JDQQ3VRY=GS1.1.1672845292.1.1.1672845539.60.0.0; _dd_s=logs=1&id=7f5fb05e-ede8-4091-ad5a-cbee19d7c381&created=1672845296101&expire=1672846470176&rum=0; amplitude_id_76f99e8624755c84810d24c4e7c45f44whitehatjr.com=eyJkZXZpY2VJZCI6ImJiNzBjOTU2LTBkOTctNDkzZi1hZjEyLWU4NmE3Y2U0NzA1ZVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY3Mjg0NTI5NjIzMywibGFzdEV2ZW50VGltZSI6MTY3Mjg0NTU3MDIzMiwiZXZlbnRJZCI6MTksImlkZW50aWZ5SWQiOjYsInNlcXVlbmNlTnVtYmVyIjoyNX0=",
+        "origin": "https://code.whitehatjr.com",
+        "referer": "https://code.whitehatjr.com/",
+        "whjr-amplitude-sessionid": "1672845296233",
+        "whjr-segment-anonymousid": "<random-uuid>"
+      },
+      "data": "{\"dialCode\":\"+91\",\"mobile\":\"<number>\",\"type\":\"voice\"}",
+      "method": "POST"
+    },
+    "unacademy": {
+      "url": "https://unacademy.com/api/v3/user/user_check/?enable-email=true",
+      "header": {
+        "Accept": "*/*",
+        "cookie": "_gcl_au=1.1.2032088967.1671361553; __gtm_referrer=https://www.google.com/; isDarkModeOn=; proxy-user-uid=b20d1315_2f36_4453_ad4a_92c1ba53cccd; anonymous_session_id=13dda7cf_8de6_4d1f_a2b8_ab938d73be71; un_session_id=41ebd77c_6dab_4c0c_a099_6479c88c7142; _gid=GA1.2.1072407381.1672848927; _gat_UA-69016858-2=1; _gat_UA-5306665-19=1; _ga=GA1.2.803986466.1671361553; _ga_6JX23YC5TQ=GS1.1.1672848926.2.0.1672848928.0.0.0",
+        "Origin": "https://unacademy.com",
+        "Referer": "https://unacademy.com/",
+        "sec-fetch-site": "same-origin",
+        "x-platform": "0"
+      },
+      "data": "{\"phone\":\"<number>\",\"country_code\":\"IN\",\"otp_type\":2,\"email\":\"\",\"send_otp\":true,\"is_un_teach_user\":false}",
+      "method": "POST"
+    }
+  },
+  "whatsapp": {},
+  "custom-message": {
+    "lovelocal": {
+      "url": "https://api.mpaani.com/otp/v1/generate/",
+      "header": {
+        "Accept-Language": "en",
+        "Client-Code": "charmander"
+      },
+      "data": "{\"phone_number\":\"<number>\",\"reason\":\"login request\",\"verification_type\":\"phone\",\"identification_hash\":\"<message>\",\"isTrueCallerVerified\":true}",
+      "message-limit": 20,
+      "method": "POST"
+    }
+  }
+}
